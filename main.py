@@ -5,7 +5,7 @@ def greet():
     print("Hi！How can I help you today？")
     
 def deepthink(question: str, duration: int | float = 5):
-    text = f'<think>Okay, the user is asking about \"{question}\" '
+    text = f"<think>Okay, the user is asking about \"{question}\" "
 
     # Stream output
     for char in text:
